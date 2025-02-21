@@ -64,13 +64,13 @@ def get_weather ():
 
 # Funkce pro přidání pozadí podle počsí
 def set_background (weather_condition):
-    weather_images = {"Clear" : "Program_na_počasí.py/images/clear.png",
-                      "Clouds" : "Program_na_počasí.py/images/cloudy.jpg",
-                      "Snow" : "Program_na_počasí.py/images/snow.jpg",
-                      "Rain": "Program_na_počasí.py/images/rain.jpg",
-                      "Drizzle" : "Program_na_počasí.py/images/drizzle.png",
-                      "Thunderstorm" : "Program_na_počasí.py/images/storm.png",
-                      "Mist" : "Program_na_počasí.py/images/storm.png"
+    weather_images = {"Clear" : "images/clear.png",
+                      "Clouds" : "images/cloudy.jpg",
+                      "Snow" : "images/snow.jpg",
+                      "Rain": "images/rain.jpg",
+                      "Drizzle" : "images/drizzle.png",
+                      "Thunderstorm" : "images/storm.png",
+                      "Mist" : "images/storm.png"
                       }
     
     img_path = weather_images.get (weather_condition, None)
