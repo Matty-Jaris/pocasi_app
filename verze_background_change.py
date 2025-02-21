@@ -70,7 +70,7 @@ def set_background (weather_condition):
                       "Rain": "images/rain.jpg",
                       "Drizzle" : "images/drizzle.png",
                       "Thunderstorm" : "images/storm.png",
-                      "Mist" : "images/storm.png"
+                      "Mist" : "images/mist.jpg"
                       }
     
     img_path = weather_images.get (weather_condition, None)
